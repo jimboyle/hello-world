@@ -1,0 +1,1 @@
+$wshell = New-Object -ComObject wscript.shell; while($true) { Start-Sleep -Seconds 240; $wshell.SendKeys('{F15}') }
